@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Bitstamp price</title>
+  <style type="text/css"></style>
+</head>
+<body>
+<img src="/static/btc.png" alt="pic1">
+<BR>
+<span style="color: rgb(204, 0, 0);">Bitstamp current ask price is {{bitstamp}}</span>
+      <form name="MyForm" action="/submit" method="post">
+        <input type="text" name="BTC" />
+         <input type="submit" name="convert" value="convert" />
+         <input type="radio" id="btc2usd" name="select" value="btc2usd" checked>btc2usd
+        <input type="radio" id="usd2btc" name="select" value="usd2btc">usd2btc
+      </form>
+   </body>
+</html>
